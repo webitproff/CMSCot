@@ -1,0 +1,3 @@
+[submodule "plugins/highslide"]
+	path = plugins/highslide
+	url = https://github.com/Roffun/highslide-plugin-cotonti
