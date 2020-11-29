@@ -37,8 +37,8 @@ $R['input_date_short'] =  '{$day} {$month} {$year}';
  * Stars / Votes Icons
  */
 
-$R['icon_rating_stars'] = '<img class="icon" src="images/icons/'.$cfg['defaulticons'].'/vote{$val}.png" alt="{$val}" />';
-$R['icon_stars'] = '<img class="icon" src="images/icons/'.$cfg['defaulticons'].'/stars{$val}.png" alt="{$val}" />';
+$R['icon_rating_stars'] = '<img class="icon" src="images/icons/'.$cfg['defaulticons'].'/vote{$val}.png" alt="{$val}">';
+$R['icon_stars'] = '<img class="icon" src="images/icons/'.$cfg['defaulticons'].'/stars{$val}.png" alt="{$val}">';
 
 /**
  * Pagination
@@ -106,11 +106,11 @@ $R['code_rc_js_file'] = '<script src="{$url}"></script>';
  * Misc
  */
 
-$R['icon_flag'] = '<img class="flag" src="images/flags/{$code}.png" alt="{$alt}" />';
-$R['icon_group'] = '<img src="{$src}" alt="'.$L['Group'].'" />';
-$R['img_none'] = '<img src="{$src}" alt="'.$L['Image'].'" />';
-$R['img_pixel'] = '<img src="images/pixel.gif" width="{$x}" height="{$y}" alt="" />';
-$R['img_smilie'] = '<img src="{$src}" alt="{$name}" class="icon" />';
+$R['icon_flag'] = '<img class="flag" src="images/flags/{$code}.png" alt="{$alt}">';
+$R['icon_group'] = '<img src="{$src}" alt="'.$L['Group'].'">';
+$R['img_none'] = '<img src="{$src}" alt="'.$L['Image'].'">';
+$R['img_pixel'] = '<img src="images/pixel.gif" width="{$x}" height="{$y}" alt="">';
+$R['img_smilie'] = '<img src="{$src}" alt="{$name}" class="icon">';
 $R['link_catpath'] = '<a href="{$url}" title="{$title}">{$title}</a>';
 $R['string_catpath'] = '<span>{$title}</span>';
 $R['link_email'] = '<a href="mailto:{$email}">{$email}</a>';
@@ -119,7 +119,7 @@ $R['link_email'] = '<a href="mailto:{$email}">{$email}</a>';
 /**
  * Structure
  */
-$R['img_structure_cat'] = '<img src="{$icon}" alt="{$title}" title="{$desc}" />';
+$R['img_structure_cat'] = '<img src="{$icon}" alt="{$title}" title="{$desc}">';
 
 /**
  * Timezones (countrycode, GMT offset, GMT offset with DST).
