@@ -58,7 +58,7 @@ $R['link_pagenav_prev'] = '<span class="pagenav pagenav_prev"><a href="{$url}"{$
  */
 
 $R['code_basehref'] = '<base href="'.$cfg['mainurl'].'/" />';
-$R['code_noindex'] = '<meta name="robots" content="noindex" />';
+$R['code_noindex'] = '<meta name="robots" content="noindex">';
 
 $R['form_guest_remember'] = '<input type="checkbox" name="rremember">';
 $R['form_guest_remember_forced'] = '<input type="checkbox" name="rremember" checked="checked" disabled="disabled">';
@@ -69,7 +69,7 @@ $R['form_guest_username'] = '<input type="text" name="rusername" size="12" maxle
  * Messages
  */
 $R['msg_code_153_date'] = '<br>(-&gt; {$date}GMT)';
-$R['msg_code_redir_head'] = '<meta http-equiv="refresh" content="{$delay};url={$url}" />';
+$R['msg_code_redir_head'] = '<meta http-equiv="refresh" content="{$delay};url={$url}">';
 
 /**
  * Error handling
