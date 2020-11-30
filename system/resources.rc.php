@@ -27,7 +27,7 @@ $R['input_textarea'] = '<textarea name="{$name}" rows="{$rows}" cols="{$cols}"{$
 $R['input_textarea_editor'] =  '<textarea class="editor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
 $R['input_textarea_medieditor'] =  '<textarea class="medieditor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
 $R['input_textarea_minieditor'] =  '<textarea class="minieditor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
-$R['input_filebox'] = '<a href="{$filepath}">{$value}</a><br /><input type="file" name="{$name}" {$attrs}><br /><label><input type="checkbox" name="{$delname}" value="1"> '.cot::$L['Delete'].'</label>{$error}';
+$R['input_filebox'] = '<a href="{$filepath}">{$value}</a><br><input type="file" name="{$name}" {$attrs}><br><label><input type="checkbox" name="{$delname}" value="1"> '.cot::$L['Delete'].'</label>{$error}';
 $R['input_filebox_empty'] = '<input type="file" name="{$name}" {$attrs}>{$error}';
 
 $R['input_date'] =  '{$day} {$month} {$year} {$hour}: {$minute}';
@@ -68,14 +68,14 @@ $R['form_guest_username'] = '<input type="text" name="rusername" size="12" maxle
 /**
  * Messages
  */
-$R['msg_code_153_date'] = '<br />(-&gt; {$date}GMT)';
+$R['msg_code_153_date'] = '<br>(-&gt; {$date}GMT)';
 $R['msg_code_redir_head'] = '<meta http-equiv="refresh" content="{$delay};url={$url}" />';
 
 /**
  * Error handling
  */
 
-$R['code_error_separator'] = '<br />';
+$R['code_error_separator'] = '<br>';
 $R['code_msg_begin'] = '<ul class="{$class}">';
 $R['code_msg_end'] = '</ul>';
 $R['code_msg_line'] = '<li><span class="{$class}">{$text}</span></li>';
