@@ -57,7 +57,7 @@ $R['link_pagenav_prev'] = '<span class="pagenav pagenav_prev"><a href="{$url}"{$
  * Header
  */
 
-$R['code_basehref'] = '<base href="'.$cfg['mainurl'].'/" />';
+$R['code_basehref'] = '<base href="'.$cfg['mainurl'].'/">';
 $R['code_noindex'] = '<meta name="robots" content="noindex">';
 
 $R['form_guest_remember'] = '<input type="checkbox" name="rremember">';
