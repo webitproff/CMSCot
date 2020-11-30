@@ -14,21 +14,21 @@ defined('COT_CODE') or die('Wrong URL');
  */
 $R['code_option_empty'] = '---';
 $R['code_time_separator'] = ':';
-$R['input_checkbox'] = '<input type="hidden" name="{$name}" value="{$value_off}" /><label><input type="checkbox" name="{$name}" value="{$value}"{$checked}{$attrs} /> {$title}</label>';
-$R['input_check'] = '<label><input type="checkbox" name="{$name}" value="{$value}"{$checked}{$attrs} /> {$title}</label>';
-$R['input_default'] = '<input type="{$type}" name="{$name}" value="{$value}"{$attrs} />{$error}';
+$R['input_checkbox'] = '<input type="hidden" name="{$name}" value="{$value_off}"><label><input type="checkbox" name="{$name}" value="{$value}"{$checked}{$attrs}> {$title}</label>';
+$R['input_check'] = '<label><input type="checkbox" name="{$name}" value="{$value}"{$checked}{$attrs}> {$title}</label>';
+$R['input_default'] = '<input type="{$type}" name="{$name}" value="{$value}"{$attrs}>{$error}';
 $R['input_option'] = '<option value="{$value}"{$selected}>{$title}</option>';
-$R['input_radio'] = '<label><input type="radio" name="{$name}" value="{$value}"{$checked}{$attrs} /> {$title}</label>';
+$R['input_radio'] = '<label><input type="radio" name="{$name}" value="{$value}"{$checked}{$attrs}> {$title}</label>';
 $R['input_radio_separator'] = ' ';
 $R['input_select'] = '<select name="{$name}"{$attrs}>{$options}</select>{$error}';
 $R['input_submit'] = '<button type="submit" name="{$name}" {$attrs}>{$value}</button>';
-$R['input_text'] = '<input type="text" name="{$name}" value="{$value}" {$attrs} />{$error}';
+$R['input_text'] = '<input type="text" name="{$name}" value="{$value}" {$attrs}>{$error}';
 $R['input_textarea'] = '<textarea name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
 $R['input_textarea_editor'] =  '<textarea class="editor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
 $R['input_textarea_medieditor'] =  '<textarea class="medieditor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
 $R['input_textarea_minieditor'] =  '<textarea class="minieditor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
-$R['input_filebox'] = '<a href="{$filepath}">{$value}</a><br /><input type="file" name="{$name}" {$attrs} /><br /><label><input type="checkbox" name="{$delname}" value="1" /> '.cot::$L['Delete'].'</label>{$error}';
-$R['input_filebox_empty'] = '<input type="file" name="{$name}" {$attrs} />{$error}';
+$R['input_filebox'] = '<a href="{$filepath}">{$value}</a><br /><input type="file" name="{$name}" {$attrs}><br /><label><input type="checkbox" name="{$delname}" value="1"> '.cot::$L['Delete'].'</label>{$error}';
+$R['input_filebox_empty'] = '<input type="file" name="{$name}" {$attrs}>{$error}';
 
 $R['input_date'] =  '{$day} {$month} {$year} {$hour}: {$minute}';
 $R['input_date_short'] =  '{$day} {$month} {$year}';
@@ -60,10 +60,10 @@ $R['link_pagenav_prev'] = '<span class="pagenav pagenav_prev"><a href="{$url}"{$
 $R['code_basehref'] = '<base href="'.$cfg['mainurl'].'/" />';
 $R['code_noindex'] = '<meta name="robots" content="noindex" />';
 
-$R['form_guest_remember'] = '<input type="checkbox" name="rremember" />';
-$R['form_guest_remember_forced'] = '<input type="checkbox" name="rremember" checked="checked" disabled="disabled" />';
-$R['form_guest_password'] = '<input type="password" name="rpassword" size="12" maxlength="32" />';
-$R['form_guest_username'] = '<input type="text" name="rusername" size="12" maxlength="100" />';
+$R['form_guest_remember'] = '<input type="checkbox" name="rremember">';
+$R['form_guest_remember_forced'] = '<input type="checkbox" name="rremember" checked="checked" disabled="disabled">';
+$R['form_guest_password'] = '<input type="password" name="rpassword" size="12" maxlength="32">';
+$R['form_guest_username'] = '<input type="text" name="rusername" size="12" maxlength="100">';
 
 /**
  * Messages
